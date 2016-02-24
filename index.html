@@ -3,6 +3,8 @@
         <head>
             <title>Resume: Jacob Gossett</title>
             
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+            
             <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 
             <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -12,19 +14,23 @@
              
         <body>
            <!--HEADER--->
-           <div class="navbar navbar-default navbar-static-top">
+  
+           <nav class="navbar navbar-default navbar-static-top">
                 <div class='container-fluid'>
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>    
-                        </button>
+                        <div class='btn-group'>
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-c" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>    
+                            </button>
+                         </div>
                      </div>
-                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                     
+                     <div class="collapse navbar-collapse" id="nav-c">
                         <ul class="nav navbar-nav">
-                            <li><a href='#about'>About</a></li>
+                            <li class='active'><a href='#about'>About</a></li>
                             <li><a href='#skills'>Skills</a></li>
                             <li><a href='#proj'>Projects</a></li>
                             <li><a href='#exp'>Resume</a></li>
@@ -32,7 +38,7 @@
                         </ul>
                       </div>
                  </div>
-             </div>
+             </nav>
             
                 <h1 class='center'>Jacob Gossett</h1>
                 <h3 class='center'>Front-End Engineer</h3>
