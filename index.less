@@ -1,0 +1,120 @@
+@import "variables.less";
+@import "mixins.less";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*NAV*/
+
+.center {
+    text-align: center;
+}
+
+/*BULK*/
+h2 {
+    text-align: center;
+    border: solid 3px @secColor;
+    border-left: none;
+    border-right: none;
+    padding-top: @h2padding;
+    padding-bottom: @h2padding;
+}
+
+
+
+.tech {
+    position: relative;
+}
+
+.projects {
+    position: relative;
+}
+
+h1 {
+    margin-top: 30px;
+}
+
+/*CONTACT*/
+.contact-form {
+    width: 800px;
+    height: 550px;
+    background-color: @primaryColor;
+    padding-top: 40px;
+    border: solid 3px @secColor;
+    .border-radius;
+}
+
+input {
+    width: 360px;
+    height: 40px;
+    .border-radius;
+    font-size: 20px;
+    margin-left: @inputMargin;
+   
+}
+
+.label {
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: @inputMargin;
+    color: @negativeSpace;
+}
+
+.messages {
+    height: 200px;
+}
+
+.send {
+    margin-top: @formTop;
+    background-color: @negativeSpace;
+    color: @sendText;
+}
+
+
+
+/*FOOTER*/
+.footer {
+
+    li{
+        display: inline;
+    }
+
+    a {
+        color: @primaryColor;
+        text-decoration: none;
+    }
+
+    p {
+        color: @primaryColor;
+    }
+}
+
+
+
+
+/*EXPERIENCE*/
+
+
+.lorem {
+    font-weight: bold;
+}
+
+.ipsum {
+    text-indent: @indent;
+    font-style: italic;
+    
+}
+
+.dolor {
+    text-indent: @indent;
+}
+
+
+
+
+/*MISC*/
+
+
+a:hover {
+    color: @linkColor;
+}
