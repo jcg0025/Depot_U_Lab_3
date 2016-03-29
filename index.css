@@ -31,37 +31,37 @@ h1 {
 }
 /*CONTACT*/
 .contact-form {
-  width: 800px;
-  height: 550px;
+  height: 420px;
   background-color: #194c66;
-  padding-top: 40px;
   border: solid 3px #988881;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
 }
-input {
-  width: 360px;
+.input {
   height: 40px;
   -webkit-border-radius: 10px;
   -moz-border-radius: 10px;
   border-radius: 10px;
   font-size: 20px;
-  margin-left: 220px;
+  margin-top: 20px;
 }
 .label {
   font-weight: bold;
   text-transform: uppercase;
-  margin-left: 220px;
   color: white;
 }
-.messages {
+#textarea {
   height: 200px;
+  margin-top: 20px;
+  font-size: 16px;
+  border-radius: 10px;
 }
-.send {
+#send {
   margin-top: 20px;
   background-color: white;
   color: #086391;
+  border-radius: 10px;
 }
 /*FOOTER*/
 .footer li {

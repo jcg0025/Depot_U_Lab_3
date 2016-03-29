@@ -47,38 +47,42 @@ h1 {
 
 /*CONTACT*/
 .contact-form {
-    width: 800px;
-    height: 550px;
+    // width: 800px;
+    height: 420px;
     background-color: @primaryColor;
-    padding-top: 40px;
+    // padding-top: 40px;
     border: solid 3px @secColor;
     .border-radius;
 }
 
-input {
-    width: 360px;
+.input {
     height: 40px;
     .border-radius;
     font-size: 20px;
-    margin-left: @inputMargin;
+    margin-top: 20px;
+    // margin-left: @inputMargin;
    
 }
 
 .label {
     font-weight: bold;
     text-transform: uppercase;
-    margin-left: @inputMargin;
+    // margin-left: @inputMargin;
     color: @negativeSpace;
 }
 
-.messages {
+#textarea {
     height: 200px;
+    margin-top: 20px;
+    font-size: 16px;
+    border-radius: 10px;
 }
 
-.send {
+#send {
     margin-top: @formTop;
     background-color: @negativeSpace;
     color: @sendText;
+    border-radius: 10px;
 }
 
 
@@ -121,3 +125,6 @@ input {
 a:hover {
     color: @secColor;
 }
+
+
+
