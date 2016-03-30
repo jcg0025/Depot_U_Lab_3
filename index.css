@@ -23,6 +23,10 @@ h2 {
   margin-right: 100px;
   margin-left: 100px;
 }
+#contact {
+  margin-left: 170px;
+  margin-right: 170px;
+}
 .education {
   text-indent: 20px;
 }
@@ -64,12 +68,15 @@ h1 {
   border-radius: 10px;
 }
 /*FOOTER*/
-.footer li {
-  display: inline;
+.footer-text {
+  text-align: center;
+  margin-top: 20px;
 }
-.footer a {
+.footer-text a {
   color: #194c66;
   text-decoration: none;
+  margin-left: 20px;
+  display: inline-block;
 }
 /*EXPERIENCE*/
 .lorem {
